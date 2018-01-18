@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Отправка форм AJAX</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__logo"></div>
+			<div class="header__contacts">
+				<ul class="contacts__list">
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">ул. Зорге, 31</a>
+					</li>
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">susaninufa@mail.ru</a>
+					</li>
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">+7 (987) 138 04 28</a>
+					</li>
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">+7 (347) 295 96 74</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<section class="hero">
+		<div class="container">
+			<h1 class="title hero__title">Запчасти на Toyota и Lexus</h1>
+			<span class="hero__description">в наличии и под заказ</span>
+			<form class="feedback-form" id="form">
+				<div class="feedback-form__title">Отправить заявку</div>
+				<ul class="feedback__list">
+					<li class="feedback__item">
+						<span class="feedback-input__title">Имя :</span>
+						<input type="text" name="name" required class="feedback-input">
+					</li>
+					<li class="feedback__item">
+						<span class="feedback-input__title">Телефон :</span>
+						<input type="tel" name="phone" required class="feedback-input">
+					</li>
+					<li class="feedback__item">
+						<span class="feedback-input__title">Email :</span>
+						<input type="mail" name="mail" required class="feedback-input">
+					</li>
+					<li class="feedback__item">
+						<span class="feedback-input__title">Vin автомобиля :</span>
+						<input type="text" name="vin" required class="feedback-input">
+					</li>
+					<li class="feedback__item">
+						<span class="feedback-input__title">Параметры детали :</span>
+						<input type="text" name="options" required class="feedback-input">
+					</li>
+				</ul>
+				<button class="form-button">Отправить</button>
+			</form>
+		</div>
+	</section>
+
+	<section class="product">
+		<div class="container">
+			<h2 class="title product__title">Каталог запчастей</h2>
+			<span class="title__text">Ознакомьтесь с нашими ценами</span>
+			<div class="plus">
+				<div class="plus__pic"></div>
+				<div class="plus__text">Доставка от 3 часов до 3 дней</div>
+				<div class="plus__text">В наличии > 6000 деталей</div>
+			</div>
+			<ul class="product__list">
+				<li class="product__item">
+					<div class="product__pic"></div>
+					<div class="product__title">Колодки тормозные комплект (задние) оригинал</div>
+					<div class="product__car-model">Toyota corolla седан XI 2013 - наст. время</div>
+					<div class="product__price">2310 Р.</div>
+					<a href="#" class="product__button">Заказать</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="advantage">
+		<div class="container">
+			<ul class="advantage__list">
+				<li class="advantage__item">
+					<div class="advantage__pic"></div>
+					<div class="advantage__wrapper">
+						<h2 class="advantage__title">Ассортимент - 10000 позиций</h2>
+						<span class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ratione veritatis est eligendi hic! Dignissimos similique dolore nisi esse culpa.</span>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</section>
+
+	<section class="mode">
+		<div class="container">
+			<h2 class="mode__title">Порядок работы</h2>
+			<ul class="mode__list">
+				<li class="mode__item">
+					<div class="mode__wrapper">
+						<div class="mode__title">Шаг 1</div>
+						<div class="mode__description">Заявка на сайте</div>
+					</div>
+					<div class="mode__text">Вы оставляете нам заявку</div>
+				</li>
+			</ul>
+			<div class="bonus">
+				<div class="bonus__pic"></div>
+				<div class="bonus__wrapper">
+					<div class="bonus__title">Специальное предложение</div>
+					<div class="bonus__text">Вы получаете подарок при покупке боинга</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__logo-wrapper">
+				<div class="footer__logo"></div>
+				<ul class="contacts__list">
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">ул. Зорге, 31</a>
+					</li>
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">susaninufa@mail.ru</a>
+					</li>
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">+7 (987) 138 04 28</a>
+					</li>
+					<li class="contacts__item">
+						<i class="contact__pic"></i>
+						<a href="" class="contact__link">+7 (347) 295 96 74</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__map-wrapper">
+				<div class="footer__map-title">Как к нам проехать</div>
+				<div class="footer__map"></div>
+			</div>
+		</div>
+		<div class="copyright">@ 2018 susaninufa.ru</div>
+	</footer>
+	
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
