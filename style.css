@@ -18,9 +18,54 @@
 
 
 
+/*----- Продукты -----*/
 
+.product__list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
 
+.product__item{
+	width: 30%;
+	border: 3px solid #891e3f;
+	background-color: #f5f4f0;
+	text-align: center;
+	padding: 10px;
+}
 
+.product__pic{
+	width: 100px;
+	height: 100px;
+	-webkit-background-size: cover;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.product__title{
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.product__price{
+	font-family: Arial;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.product__button{
+	padding: 5px 35px;
+	border-radius: 20px;
+	background-color: #9a2f33;
+	line-height: 35px;
+	text-transform: uppercase;
+	color: #fff;
+}
 
 
 /* ---- Форма обратной связи ------*/
